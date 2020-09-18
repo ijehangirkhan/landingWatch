@@ -627,3 +627,202 @@ body
 {
     display: flex;
 }
+
+
+.contact
+{
+    height: 836px;
+    background: #FEFEFE;
+    padding-top: 110px;
+}
+
+.contact-heading
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:#3B3B3B;
+    /* width: 178px;
+    height: 48px; */
+    margin-top: 0%;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 0%;
+}
+
+.contact-p
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    color: #707070;
+    width: 496px;
+    height: 38px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+
+.contact-grid
+{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 470px 126px;
+    grid-gap: 50px;
+    min-height: 440px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: center;
+}
+
+/* .contact-form
+{
+   
+} */
+
+
+input[type=text], select, textarea {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    color: #C1C1C1;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ECECEC;
+    border-radius: 25px;
+    box-shadow: #000000;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    resize: vertical;
+    outline: none;
+  }
+  
+  input[type=submit] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 115px;
+    height: 40px;
+    background-image: linear-gradient(to right ,#6859EA,#6ACBE0);
+    border-radius: 23px;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+  }
+
+.contact-details
+{
+    min-width: 126px;
+}
+
+
+.phone-number
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.phone-number p
+{
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.phone-flex
+{
+    display: flex;
+}
+
+.phone-flex h3
+{
+    margin-left: 9px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+/* .phone-icon
+{
+ background-image: linear-gradient(to right ,#6859EA,#6ACBE0);
+} */
+
+.email
+{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email p
+{
+    margin-top: 9px;
+}
+
+.email-flex
+{
+    display: flex;
+}
+
+.email-flex h3
+{
+    margin-left: 9px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+/* .email-icon
+{
+ background-image: linear-gradient(to right ,#6859EA,#6ACBE0);
+} */
+
+.address
+{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address p
+{
+    margin-top: 9px;
+}
+
+.address-flex
+{
+    display: flex;
+}
+
+.address-flex h3
+{
+    margin-left: 9px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+/* .address-icon
+{
+ background-image: linear-gradient(to right ,#6859EA,#6ACBE0);
+} */
+
+.footer
+{
+    height:50px;
+    background: #3B3B3B;
+}
+
+.footer p
+{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+   color: #FFFFFF;
+   text-align: center;
+}
