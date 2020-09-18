@@ -191,7 +191,7 @@ body
     margin-right: auto;
 }
 
-.features p
+.features-details
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
@@ -340,6 +340,7 @@ body
     width: 496px;
     height: 38px;
     margin-top: 20px;
+   /*  text-align: center; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0%;
@@ -408,4 +409,221 @@ body
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.feedback
+{
+    height: 720px;
+    background: #FEFEFE;
+    padding-top: 110px;
+}
+
+.feedback h1
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:#3B3B3B;
+    /* width: 292px;
+    height: 48px; */
+    margin-top: 0%;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 0%;
+}
+
+.feedback-details
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    color: #707070;
+    width: 496px;
+    height: 38px;
+    margin-top: 20px;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+
+.feedback-cards
+{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(270px,1fr));
+  grid-gap: 30px;
+  margin-top: 60px;
+  margin-left: 525px;
+  margin-right: 525px;
+}
+
+.feedback-card
+{   
+    min-height: 494px;
+}
+
+.feedback-card p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    background: #EAF4FC;
+    color: #707070;
+    max-width: 270px;
+    /* min-height: 150px; */
+    margin-top: 20px;
+   /*  margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user
+{
+    display: flex;
+}
+
+.user img
+{
+     border-radius: 50%;
+}
+
+.user-details
+{
+    margin-left: 20px;
+}
+
+.user-details h3
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:#707070;
+    max-width: 150px;
+    height: 19px;
+    /* margin-top: 21px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 0%;
+}
+
+.user-details h4
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    color:#707070;
+    max-width: 150px;
+    height: 19px;
+    margin-top: 0%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin-bottom: 0%; */
+}
+
+
+.faqs
+{
+    display: flex;
+    height: 702px;
+    background: #F5F5F5;
+}
+
+.faqs img
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+
+.faqs-content
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.faqs-content h1
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #3B3B3B;
+    /* width: 570px;
+    height: 41px; */
+}
+
+.faqs-detail
+{
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    width: 570px;
+    margin-bottom: 11px;
+}
+
+.question
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    color: #707070;
+    max-width: 466px;
+    /* height: 114px; */
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.more-icon
+{
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    color: #C1C1C1;
+}
+
+.less-icon
+{
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    color: #6984E6;
+}
+
+.expanded-flex1
+{
+    display: flex;
+    color: #6984E6;
+}
+
+.expanded-flex1 p
+{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    color: #6984E6;
+    /* width: 541px;
+    height: 114px; */
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.expanded-flex2
+{
+    display: flex;
 }
