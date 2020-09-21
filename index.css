@@ -605,6 +605,7 @@ body
 .expanded-flex1
 {
     display: flex;
+    flex: 1;
     color: #6984E6;
 }
 
@@ -729,6 +730,10 @@ input[type=text], select, textarea {
 
 .phone-number p
 {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #3B3B3B;
     margin-top: 9px;
     margin-bottom: 9px;
 }
@@ -740,6 +745,10 @@ input[type=text], select, textarea {
 
 .phone-flex h3
 {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3B3B3B;
     margin-left: 9px;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -759,6 +768,10 @@ input[type=text], select, textarea {
 
 .email p
 {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #3B3B3B;
     margin-top: 9px;
 }
 
@@ -769,6 +782,10 @@ input[type=text], select, textarea {
 
 .email-flex h3
 {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3B3B3B;
     margin-left: 9px;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -788,6 +805,10 @@ input[type=text], select, textarea {
 
 .address p
 {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #3B3B3B;
     margin-top: 9px;
 }
 
@@ -798,6 +819,10 @@ input[type=text], select, textarea {
 
 .address-flex h3
 {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3B3B3B;
     margin-left: 9px;
     margin-top: 0%;
     margin-bottom: 0%;
