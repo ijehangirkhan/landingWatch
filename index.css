@@ -965,7 +965,6 @@ input[type=text], select, textarea {
       body
      {
          width: 100%;
-         border: 1px solid pink;
      }
      .header
      {
@@ -1125,7 +1124,6 @@ input[type=text], select, textarea {
      .feedback-slider
      {
          width: 100%;
-         border: 1px solid black;
      }
 
      .feedback-card:nth-child(2)
