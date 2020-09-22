@@ -158,7 +158,7 @@
         incididunt ut labore et dolore magna aliqua.</p>
     </div>
     <div class="feedback-slider">
-    <img class="prev" src="./images/ic_chevron_left_24px.png" alt="Prev Icon">
+    <img class="prev" onclick="changeSlide(-1)" src="./images/ic_chevron_left_24px.png" alt="Prev Icon">
     <div class="feedback-cards">
     <div class="feedback-card">
 
@@ -172,11 +172,6 @@
     </div>
     <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     </p>
-    <div class="slider-dots">
-        <img src="./images/Ellipse 3.png" alt="1">
-        <img src="./images/Ellipse 1.png" alt="2">
-        <img src="./images/Ellipse 2.png" alt="3">
-        </div>
     </div>
     
     <div class="feedback-card">
@@ -188,11 +183,6 @@
         </div>
         </div>
         <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
-        <div class="slider-dots">
-        <img src="./images/Ellipse 3.png" alt="1">
-        <img src="./images/Ellipse 1.png" alt="2">
-        <img src="./images/Ellipse 2.png" alt="3">
-        </div>
     </div>
 
     <div class="feedback-card">
@@ -204,15 +194,97 @@
             </div>
             </div>
             <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-            <div class="slider-dots">
-                <img src="./images/Ellipse 3.png" alt="1">
-                <img src="./images/Ellipse 1.png" alt="2">
-                <img src="./images/Ellipse 2.png" alt="3">
-                </div>
         </div>
-
     </div>
-    <img class="next" src="./images/ic_chevron_right_24px.png" alt="Next Icon">
+
+    <!-- Second Page -->
+    <div class="feedback-cards">
+    <div class="feedback-card">
+
+        <div class="user">
+        <img src="./images/oleh.png" alt="Watch">
+    
+        <div class="user-details">
+        <h3>M.Deer</h3>
+        <h4>Dj artist</h4>
+        </div>
+        </div>
+        <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        </p>
+        </div>
+        <div class="feedback-card">
+
+            <div class="user">
+            <img src="./images/oleh.png" alt="Watch">
+        
+            <div class="user-details">
+            <h3>M.Deer</h3>
+            <h4>Dj artist</h4>
+            </div>
+            </div>
+            <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </p>
+            </div>
+            <div class="feedback-card">
+
+                <div class="user">
+                <img src="./images/oleh.png" alt="Watch">
+            
+                <div class="user-details">
+                <h3>M.Deer</h3>
+                <h4>Dj artist</h4>
+                </div>
+                </div>
+                <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                </p>
+                </div>
+    </div>
+                <!-- Second Page End -->
+
+
+                 <!-- Third Page -->
+    <div class="feedback-cards">
+        <div class="feedback-card">
+            <div class="user">
+            <img src="./images/2.png" alt="Watch">
+            <div class="user-details">
+            <h3>Chabanov Oleh</h3>
+            <h4>Designer</h4>
+            </div>
+            </div>
+            <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+        </div>
+        <div class="feedback-card">
+            <div class="user">
+            <img src="./images/2.png" alt="Watch">
+            <div class="user-details">
+            <h3>Chabanov Oleh</h3>
+            <h4>Designer</h4>
+            </div>
+            </div>
+            <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+        </div>
+        <div class="feedback-card">
+            <div class="user">
+            <img src="./images/2.png" alt="Watch">
+            <div class="user-details">
+            <h3>Chabanov Oleh</h3>
+            <h4>Designer</h4>
+            </div>
+            </div>
+            <p class="user-feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor</p>
+        </div>
+                </div>
+                    <!-- Third Page End -->
+
+   
+    <img class="next" onclick="changeSlide(1)" src="./images/ic_chevron_right_24px.png" alt="Next Icon">
+</div>
+<div class="slider-dots">
+    <img class="dot" onclick="activeSlide(1)" src="./images/Ellipse 2.png" alt="1">
+    <img class="dot" onclick="activeSlide(2)" src="./images/Ellipse 1.png" alt="2">
+    <img class="dot" onclick="activeSlide(3)" src="./images/Ellipse 2.png" alt="3">
+    </div>
 </div>
     
 </div>
@@ -320,5 +392,6 @@
 </div>
 
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src='./index.js'></script>
 </body>
 </html>
