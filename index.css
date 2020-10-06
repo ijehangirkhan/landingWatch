@@ -499,10 +499,11 @@ body
 .feedback-slider
 {
     display: flex;
-    width: fit-content;
+    width: 100%;
    /* position: relative; */
    margin-left: auto;
    margin-right: auto;
+
 }
 
 .prev
@@ -528,6 +529,45 @@ body
    /* top: 50%; */
 }
 
+.overflow-container
+{
+    display: flex;
+    width: 870px;
+    overflow: hidden;
+}
+
+.feedback-cards-container
+{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    width: 870px;
+
+    /* animation: slider 10s infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    animation-timing-function: linear; */
+}
+
+/* .paused{
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused; 
+    animation-play-state:paused;
+} */
+
+/* @keyframes slider {
+
+    0%   { transform: translateX(0); }
+    10%  { transform: translateX(0); }
+    30%  { transform: translateX(-30%); }
+    40%  { transform: translateX(-33.33%); }
+    60%  { transform: translateX(-63.33%); }
+    70%  { transform: translateX(-66.66%); }
+    90% { transform: translateX(-96.66%); }
+    100% { transform: translateX(-100%); }
+  } */
+
+
 .feedback-cards
 {
   display: none;
@@ -536,6 +576,7 @@ body
   margin-top: 60px;
  /*  margin-left: 525px;
   margin-right: 525px; */
+
 }
 
 .feedback-card
@@ -1135,6 +1176,7 @@ input[type=text], select, textarea {
      {
         grid-template-columns: minmax(340px,1fr);
         grid-gap: none;
+
      }
 
      /* .user
